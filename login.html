@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./Main-css.css">
+</head>
+<body>
+    <div class="main" id="main">
+        <form action="" class="form-login" id="form-login">
+            <h1>Đăng Ký</h1>
+
+            <div class="form-main">
+                <label for="" class="form-lable">Tên đăng nhập</label><br />
+                <input type="textbox" name="login" rule="required" placeholder="Og:Tran Ngoc Hiep" class="login-1" id="login"><br />
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-main">
+                <label for="" class="form-lable">Email</label><br />
+                <input type="textbox" name="email" rule="required|email" placeholder="Og:Learn@gmail.com" class="email-1" id="email"><br />
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-main">
+                <label for="" class="form-lable">Mật khẩu</label><br />
+                <input type="password" name="password" rule="required|min:6" placeholder="Og:matkhau123" class="password-1" id="password"><br />
+                <span class="form-message"></span>
+            </div>
+
+            <div class="form-main">
+                <button class="login-btn">Đăng nhap</button>
+                <button class="cancel-btn">Hủy</button>
+            </div>
+            
+        </form>
+    </div>
+
+    <script src="login-2.js"></script>
+
+    <script>
+        Validator('#form-login');
+    </script>
+</body>
+</html>
