@@ -62,4 +62,7 @@ span{
 .invalid input{
     border-color: red;
 }
+.login-end{
+    color: red;
+}
 //end-end
