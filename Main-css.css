@@ -1,0 +1,64 @@
+.form{
+    width: 400px;
+    height: 650px;
+    margin-left: 150px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+.form-login{
+    width: 400px;
+    height: 450px;
+    margin-left: 150px;
+    background-color: wheat;
+    border-radius: 15px;
+}
+.form-main{
+    height: 95px;
+}
+h1{
+    text-align: center;
+}
+input{
+    width: 80%;
+    height: 30px;
+    margin-left: 25px;
+    margin-top: 10px;
+    border-radius: 5px;
+}
+select{
+    width: 82%;
+    height: 35px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+label{
+    margin-left: 25px;
+    font-size: 18px;
+}
+span{
+    margin-left: 25px;
+    font-size: 15px;
+}
+.login-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 30px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    font-size: 15px;
+}
+.cancel-btn{
+    width: 150px;
+    height: 40px;
+    margin-left: 30px;
+    border-radius: 5px;
+    background-color: lightseagreen;
+    font-size: 15px;
+}
+.invalid span{
+    color: red;
+}
+.invalid input{
+    border-color: red;
+}
